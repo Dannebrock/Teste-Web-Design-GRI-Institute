@@ -30,8 +30,8 @@ npm run dev
 **Exemplo de Uso**
 ```bash
 <template>
-  <RepresentativeCard
-    name="John Doe"
+  <PersonCard
+      name="John Doe"
     role="Head of Strategy"
     company="GRI Institute"
     image="/assets/user.jpg"
@@ -39,11 +39,15 @@ npm run dev
     companyLogo="/assets/logo.png"
     skills="Leadership, Strategy, Growth"
     :match="76"
-  />
+    /> 
 </template>
+
+<script setup>
+import SkillBadge from './components/SkillBadge.vue'
+</script>
 ```
 <script setup>
-import RepresentativeCard from './components/RepresentativeCard.vue'
+import PersonCard from './components/PersonCard.vue';
 </script>
 
 **Acesse no Navegador**
