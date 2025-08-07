@@ -43,12 +43,10 @@ npm run dev
 </template>
 
 <script setup>
-import SkillBadge from './components/SkillBadge.vue'
-</script>
-```
-<script setup>
 import PersonCard from './components/PersonCard.vue';
 </script>
+```
+
 
 **Acesse no Navegador**
 
