@@ -21,7 +21,7 @@ Componente visual reutilizável e responsivo, desenvolvido com Vue 3 e Tailwind 
 1. **Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/Dannebrock/Teste-Web-Design-GRI-Institute.git
 cd seu-repositorio
 npm install
 npm run dev
