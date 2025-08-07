@@ -26,6 +26,26 @@ cd seu-repositorio
 npm install
 npm run dev
 ```
+
+**Exemplo de Uso**
+```bash
+<template>
+  <RepresentativeCard
+    name="John Doe"
+    role="Head of Strategy"
+    company="GRI Institute"
+    image="/assets/user.jpg"
+    countryFlag="/assets/brazil-flag.svg"
+    companyLogo="/assets/logo.png"
+    skills="Leadership, Strategy, Growth"
+    :match="76"
+  />
+</template>
+```
+<script setup>
+import RepresentativeCard from './components/RepresentativeCard.vue'
+</script>
+
 **Acesse no Navegador**
 
 http://localhost:5173
