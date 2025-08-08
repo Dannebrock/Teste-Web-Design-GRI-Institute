@@ -22,7 +22,7 @@ Componente visual reutilizável e responsivo, desenvolvido com Vue 3 e Tailwind 
 
 ```bash
 git clone https://github.com/Dannebrock/Teste-Web-Design-GRI-Institute.git
-cd seu-repositorio
+cd  Teste-Web-Design-GRI-Institute
 npm install
 npm run dev
 ```
